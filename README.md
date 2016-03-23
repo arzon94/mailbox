@@ -1,3 +1,3 @@
 # mailbox
 
-hey just testing this out
+added the basic html, css, and js files
