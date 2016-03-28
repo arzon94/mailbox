@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Progressive sign up </title>
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+
+  </head>
+
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a class="active" href="mailbox.html">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <span><h1>SIGNUP FOR MAILBOX</h1></span>
+			<section>
+				<form id="theform" class="simform">
+					<div class="simform-inner">
+						<ol class="questions">
+							<li>
+								<span><label for="q1">Hi, What is your Name?</label></span>
+								<input id="q1" name="name" type="text" placeholder="enter your full name" autofocus/>
+							</li>
+							<li>
+								<span><label for="q2">and what shall we call you</label></span>
+								<input id="q2" name="username" type="text" placeholder="enter a username" autofocus/>
+							</li>
+							<li>
+								<span><label for="q3">Enter you email</label></span>
+								<input id="q3" name="email" type="text" placeholder="enter your full name"  autofocus/>
+							</li>
+							<li>
+								<span><label for="q4">Choose a password</label></span>
+                                <input id="viewpswd" name="viewpswd" type="text"/>
+                                <input id="password" name="password" type="password" autofocus/>
+                                <span id="show" class="glyphicon glyphicon-eye-open"></span>
+							</li>
+							<li>
+								<span><label for="q5">Enter your phone number</label></span>
+                                <select name="countryCode" class="country"  >
+	                               <option data-countryCode="GB" value="91">(+91) INDIA </option>
+	                               <option data-countryCode="GB" value="44">(+44) UK </option>
+	                               <option data-countryCode="US" value="1">(+1) USA </option>
+	                               <optgroup label="Other countries">
+                                       <option data-countryCode="DZ" value="213"> (+213)Algeria</option>
+                                       <option data-countryCode="AD" value="376"> (+376) Andorra</option>
+                                       <option data-countryCode="AO" value="244">(+244) Angola </option>
+                                       <option data-countryCode="AI" value="1264"> (+1264) Anguilla</option>
+                                       <option data-countryCode="AG" value="1268">(+1268) Antigua &amp; Barbuda </option>
+                                       <option data-countryCode="AR" value="54">(+54) Argentina </option>
+                                       <option data-countryCode="AM" value="374"> (+374) Armenia</option>
+                                       <option data-countryCode="AW" value="297">(+297) Aruba </option>
+                                       <option data-countryCode="AU" value="61"> (+61) Australia</option>
+                                       <option data-countryCode="AT" value="43">(+43) Austria </option>
+                                       <option data-countryCode="AZ" value="994"> (+994) Azerbaijan</option>
+                                       <option data-countryCode="BS" value="1242">(+1242)Bahamas </option>
+                                    </optgroup>
+                              </select>
+                                <input id="q5" name="phone" type="text" autofocus/>
+							</li>
+							<li>
+								<span><label for="q6">What's your profession?</label></span>
+								<div class="media-option">
+                                    <div class="mediabox">
+                                     <input type="radio" name="profession" value="Student" autofocus/>
+                                     <span class="glyphicon glyphicon-education"></span>
+							         <p>Student</p>
+						        </div>
+                                <div class="mediabox">
+							          <input type="radio" name="profession" value="Emplyoed" autofocus/>
+                                    <span class="glyphicon glyphicon-user"></span>
+							         <p>Emplyoed</p>
+						        </div>
+                                 <div class="mediabox">
+							        <input type="radio" name="profession" value="Business" autofocus/>
+                                    <span class="glyphicon glyphicon-briefcase"></span>
+							         <p>Business</p>
+						        </div>
+                                </div>
+							</li>
+						</ol>
+                        <div class="continue">
+                            <button >OK Done!</button>
+                        </div>
+
+						<div class="controls">
+                            <button class="next glyphicon glyphicon-arrow-right"></button>
+                            <span class="error-message">this is the test message</span>
+						</div>
+					</div>
+
+				</form>
+                <div class="login">
+                    	<span class="final-message">Thank you!</span>
+                         <button >Login Here</button>
+                    </div>
+			</section>
+
+             <div class="progess">
+                                <div class="progress-step" step="1">1</div>
+                                <div class="progress-step" step="2">2</div>
+                                <div class="progress-step" step="3">3</div>
+                                <div class="progress-step" step="4">4</div>
+                                <div class="progress-step" step="5">5</div>
+                                <div class="progress-step" step="6">6</div>
+                            </div>
+		</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+
+
+
+  </body>
+</html>
