@@ -1,57 +1,110 @@
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="mailbox.css" type="text/css">
-		<meta charset="UTF-8">
-		<title>News</title>
-		</head>
-		<body>
-			<div class="nav">
-		    <ul>
-		      <li><a class="active" href="mailbox.html">Home</a></li>
-		      <li><a href="news.html">News</a></li>
-		      <li><a href="contact.html">Contact</a></li>
-		      <li><a href="about.html">About</a></li>
-		    </ul>
-		  </div>
-<!-- i am not sure about how to apply css to this -->
-		<style>
-                .center {
-                	font-weight: bold;
+
+<head>
+	<link rel="stylesheet" href="mailbox.css" type="text/css">
+	<style>
+		.center {
+			font-weight: bold;
 			text-align: center;
 			color: black;
 		}
-		h1 {color:gold;text-align:center}
-		h3 {color:gold;text-align:left}
-                h4 {color:black;text-align:left}
-		</style>
-		  <p> <br><br><br><br>
-		  <h1> <ins> Product Development</ins> </h1> <br>
-		  <hr/>
-		  <h3> HCI Testing Round Completed</h3><br>
-		  &nbsp;&nbsp;&nbsp;&nbsp; This past year we have been working in our lab with people like you to refine our product so that it is perfect once it is in <u>your hands</u>! We have gotten some great feed back that will allow you even better customization options. <a href="#anchor">Learn more!</a>
-		  <img src="http://www.keolabs.com/tzr/scripts-admin/resizer.php?filename=T025/image/b2/b4/4s0ncdzsvg2p&mime=image%2Fpng&&originalname=NFC-SWP-Testing-Platforms.png" width="300" alt=" NFC in your device" align="left"/>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<h4> Field Trials Scheduled for May! </h4>
-     We are looking for volunteers in <i> Provo, UT. </i>Here is a <a href="https://docs.google.com/spreadsheets/d/1Bc0OlR0DAiWUiup7Z8TuyPu9qKFeZFcmQM3Ty1V-swc/edit?usp=sharing">form</a> that we would like you to add yourself to in order to be a candidate for the field trial. This is an exiciting opportunity for you to be a part of the future!<br><br>
+		h1 {
+			color: gold;
+			text-align: center
+		}
 
-<b><strong> Our Partners </strong></b>
-<br><a name="anchor"></a>
-Meet our first partner the <a href="https://www.usps.com/">USPS</a>! These guys work hard everyday so that you can get your mail on time and will be working with all of us so we can better the services that they provide you! <br>
+		h3 {
+			color: gold;
+			text-align: left
+		}
 
-<a href="https://www.usps.com/">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/United_States_Postal_Service_Truck.jpg" width="400" height="200" border="0">
-</a>
-</p>
-<p><a href="coin_flip.html"><h2>New Coin Game!</h2></a></p>
-<br>
-<font face="arial"> <p class= "center">Thank you for visting our site!</p> </font>
+		h4 {
+			color: black;
+			text-align: left
+		}
+	</style>
+	<meta charset="UTF-8">
+	<title>News</title>
+</head>
 
-<!--	I am thinking about what I can do with this.
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="mailbox.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+	<!-- i am not sure about how to apply css to this -->
+
+	<header>
+		<h1> Product Development </h1>
+		<hr>
+	</header>
+	<div class="blue">
+
+		<br>
+		<h2> HCI Testing Round Completed</h2>
+		<!-- <br> &nbsp;&nbsp;&nbsp;&nbsp; -->
+		<p>This past year we have been working in our lab with people like you to refine our product so that it is perfect once it is in your hands! We have gotten some great feed back that will allow you even better customization options.
+		</p>
+		<img src="http://www.keolabs.com/tzr/scripts-admin/resizer.php?filename=T025/image/b2/b4/4s0ncdzsvg2p&mime=image%2Fpng&&originalname=NFC-SWP-Testing-Platforms.png" width="300" alt=" NFC in your device" align="left" />
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<h2> Field Trials Scheduled for May! </h2>
+		<p>We are looking for volunteers in <i> Provo, UT. </i>Here is a <a href="https://docs.google.com/spreadsheets/d/1Bc0OlR0DAiWUiup7Z8TuyPu9qKFeZFcmQM3Ty1V-swc/edit?usp=sharing">form</a> that we would like you to add yourself to in order to be a candidate
+			for the field trial. This is an exiciting opportunity for you to be a part of the future!
+		</p>
+		<br>
+		<br>
+
+		<h2><b><strong> Our Partners </strong></b></h2>
+		<br>
+		<p>Meet our first partner the <a href="https://www.usps.com/">USPS</a>! These guys work hard everyday so that you can get your mail on time and will be working with all of us so we can better the services that they provide you!
+		</p>
+		<br>
+		<a href="https://www.usps.com/">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/United_States_Postal_Service_Truck.jpg" width="400" height="200" border="0">
+		</a>
+
+		<br>
+		<font face="arial"> <p class= "center">Thank you for visting our site!</p> </font>
+		<p><a href="coin_flip.html"><h2>New Coin Game!</h2></a></p>
+		<br>
+		<button onclick="myFunction()">How many seconds do you have to order?</button>
+		<p id="demo"></p>
+		<script>
+			function myFunction() {
+				var text = "";
+				var i = 10;
+				while (i > 0) {
+					text += "<br>You have " + i + " seconds to order mailbox";
+					i--;
+				}
+				document.getElementById("demo").innerHTML = text;
+			}
+		</script>
+	</div>
+	<!--	I am thinking about what I can do with this.
  <button type="button">Click Me!</button> <!obtained from www3shchools>
 -->
 
- </body>
+</body>
 </html>
