@@ -133,7 +133,7 @@ div.img:hover {
 }
 div.img img {
   width: 50em;
-  height: 50em;
+  height: auto;
 }
 div.desc {
   background-color: white;
