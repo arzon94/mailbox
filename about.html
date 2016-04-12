@@ -58,6 +58,20 @@
   </div>
 
 
+<button onclick="myFunction()">How many seconds do you have to order?</button>
+		<p id="demo"></p>
+		
+		<script>
+		  function myFunction() {
+				var text = "";
+				var i = 10;
+				while (i > 0) {
+					text += "<br>You have " + i + " seconds to order mailbox";
+					i--;
+				}
+				document.getElementById("demo").innerHTML = text;
+			}
+		</script>
 </body>
 
 </html>
