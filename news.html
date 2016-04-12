@@ -86,30 +86,6 @@
 
 		<br>
 <!--This code for user authentication was obtained by http://www.javascriptkit.com/script/cut10.shtml and subsequently modified-->		
-<script> 
-function passWord()
-{
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3)
-{
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "incorrect")
-{
-alert('Authentication successful!');
-window.open('contact.html');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Your Password Is Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</script>
 
 <form>
 <div class = "center">	
@@ -133,6 +109,28 @@ return " ";
 				}
 				document.getElementById("demo").innerHTML = text;
 			}
+function passWord()
+{
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3)
+{
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "incorrect")
+{
+alert('Authentication successful!');
+window.open('contact.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Your Password Is Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
 		</script>
 	</div>
 	<!--	I am thinking about what I can do with this.
